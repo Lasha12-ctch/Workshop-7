@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-color:  #DDEAF8;
+    ;
+  }
+  nav ul{
+    display: flex;
+    gap: 25px;
+  
+  }
+  nav ul li{
+    list-style-type: none;
+    color: #758BFD;
+    cursor: pointer;
+    font-size: 19px;
+  }
+  nav ul li.active{
+    color: #27187F;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px 0px;
+  
+  }
+  nav .nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .container{
+    width: 1700px;
+    max-width:90%;
+    margin: 0;
+    margin: 0px auto;
+  }
+  .logoside{
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input{
+    width: 162px;
+    height: 46px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #758BFD;
+    display: flex;
+    align-items: center;
+    padding:14px;
+    gap: 5px;
+  
+    
+  }
+  .search-input img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  
+  }
+  .search-input input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  section{
+    padding: 100px 0px;
+  }
+  
+  .header-text{
+     color: #27187F;
+     font-size: 25px;
+  }
+  .cards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    justify-content: center;
+  }
+  .card{
+    width: 32%;
+    min-width: 220px;
+   background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .card p{
+    margin: 10px 0px;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  footer{
+    padding: 70px 0px;
+    background-color: #758BFD;
+   
+  }
+
+  .icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .pay{
+   display: flex;
+   justify-content: end;
+   gap: 5px;
+   align-items: center;
+  }
+
+.bars i{
+    display: none;
+}
+
+  .bars i{
+    font-size: 40px;
+    color: #758BFD;
+    cursor: pointer;
+  }
+  .footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  @media (max-width:700px) {
+    .bars i{
+        display: flex;
+    }
+     nav ul li {
+        display: none;
+    }
+    .search-input {
+        display: none;
+    }
+    .footerContent{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    
+    .pay img{
+        height: 30px;
+    }
+    
+   
+
+  }
